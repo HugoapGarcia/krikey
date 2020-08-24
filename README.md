@@ -14,7 +14,7 @@
     cd /krikey/db
     ### Run command
         \i /Dir/krikey/db/krikey.sql;   
-          
+
     ### Install node_modules
  - cd /krikey
     - yarn install or npm install
@@ -28,7 +28,7 @@
 
 
 
-### Learn More *****************
+### Learn More 
 
 ## Note: Available Scripts
 
