@@ -1,12 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### INSTALL APPLICATION
+ - Install PostgreSQL and select depending on env you are working
+    Windows :
+        url : https://www.postgresql.org/download/
+    Mac OS :
+        url: https://postgresapp.com/
 
-## Available Scripts
+
+ - clone repository
+    url :
+
+  ### DB
+  - Import DB
+    cd /krikey/db
+    ### Run command
+        \i /Dir/krikey/db/krikey.sql;   
+          
+    ### Install node_modules
+ - cd /krikey
+    - yarn install or npm install
+
+   ### Run client application development mode
+    - yarn start  or npm run start  
+   ### Run client application production mode Mac os
+    - yarn start:prod or npm run start:prod
+   ### Run server signaling end-point 
+    - yarn server
+
+
+
+### Learn More *****************
+
+## Note: Available Scripts
 
 In the project directory, you can run:
 
 ### `yarn start`
 
 Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+
+### `yarn start:prod`
+
+Runs the app in the production mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
@@ -27,42 +65,19 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### HOW TO RUN SERVER END-POINT LISTENER 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `yarn server`
+Runs server in the production mode.<br />
+Open [http://localhost:8080](http://localhost:8080).
+***Note:
+    End-point services routes listners
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    GET http://localhost:8080/api/'name'
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
