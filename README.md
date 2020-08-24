@@ -1,9 +1,11 @@
 ### INSTALL APPLICATION
  - Install PostgreSQL and select depending on env you are working
-    Windows :
-       ### `url : https://www.postgresql.org/download/`
-    Mac OS :
-       ### `url: https://postgresapp.com/`
+    
+    ### `Windows :`
+    url : https://www.postgresql.org/download/
+    
+    ### `Mac OS :`
+    url: https://postgresapp.com/
 
 
  - clone repository
